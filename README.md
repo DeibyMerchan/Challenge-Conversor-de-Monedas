@@ -10,7 +10,7 @@ Construido con 💻 **Java**, 🖼️ **JavaFX** y 💡 mucha dedicación, está
 ## 🖼️ Vista Previa
 
 Porque todo entra por los ojos...  
-![Captura de pantalla](imagenes/img1.png)
+![Captura de pantalla](img1.png)
 
 > ¿Te pica la curiosidad? Ejecuta el proyecto y compruébalo por ti mismo 😉
 
@@ -37,7 +37,7 @@ Porque todo entra por los ojos...
 - Ve a la pestaña de **Maven** (barra lateral derecha).
 - Abre **Plugins > javafx**.
 - Haz doble clic en **`javafx:run`**.
-- ![Captura de pantalla](imagenes/img2.png)
+- ![Captura de pantalla](img2.png)
 
 ¡Y listo! El conversor se abrirá.
 
