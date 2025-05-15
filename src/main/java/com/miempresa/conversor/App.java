@@ -1,5 +1,6 @@
 package com.miempresa.conversor;
 
+import com.miempresa.conversor.service.CurrencyService;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
@@ -17,11 +18,11 @@ import java.util.Map;
 
 public class App extends Application {
 
-    private static final List<String> MONEDAS = List.of("USD", "EUR", "MEX", "GBP", "COP", "ARS", "BOB", "BRL", "CLP", "VES" );
+    private static final List<String> MONEDAS = List.of("USD", "EUR", "MXN", "GBP", "COP", "ARS", "BOB", "BRL", "CLP", "VES" );
     private static final Map<String, String> MONEDA_NOMBRE = Map.of(
             "USD", "Dólar estadounidense",
             "EUR", "Euro",
-            "MEX", "Peso mexicano",
+            "MXN", "Peso mexicano",
             "GBP", "Libra esterlina",
             "COP", "Peso colombiano",
             "ARS", "Peso Argentino",
